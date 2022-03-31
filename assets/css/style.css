@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --primary-color: rgb(255, 198, 9);
+    --primary-dark: rgb(5, 41, 49);
+    
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif ;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 440px;
+    margin: 60px auto;
+    background: rgb(6, 85, 255);
+    padding: 20px; 
+    border-radius: 10px; 
+    text-align: center;
+    box-shadow: 10px 10px 6px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+}
+
+.title-top {
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+    margin-top: 5px ;
+    margin-bottom: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primary-dark);
+}
+
+form button:active {
+    background:red;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    background-color: #838383;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #000000;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:hover {
+    background: rgb(255, 198, 9);
+}
+
+footer {
+    text-align: center;
+    margin-top: 6%;
+    font-size: 10px;
+    font-weight: bold;
+}
